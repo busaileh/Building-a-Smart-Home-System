@@ -1,0 +1,67 @@
+
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<link rel= "stylesheet" href="scripts/bootstrap/css/bootstrap.min.css">
+	<style type="text/css">
+		#securityButtons{
+			margin:10px;
+			float:right;
+			background-color:#939393;
+			border:1px solid black;
+		}
+		.circle{
+			border-radius: 50%;
+			width: 13px;
+    		height: 13px;
+   			
+			#margin:7px 10px 10px 10px;
+			float:right;
+			margin:4px 0 0 9px;
+		}
+		.green{
+			background: green;
+			border: 1px solid green;
+		}
+		.red{
+			background: red;
+			border: 1px solid red;
+			opacity: 0.5;
+		}
+		#securitycontrol{
+			color: #474747;
+			border-color: #000000;
+			background: #B74648;
+		}
+	</style>
+</head>
+
+<body>
+
+<div class="container-fluid">
+<div class="btn-group" role="group" aria-label="Button group with nested dropdown" id="securitycontrol">
+  <div class="btn btn-secondary active">On<div class="circle green"></div></div>
+  <div  class="btn btn-secondary">Off<div class="circle red"></div></div>
+  
+  <div class="btn-group" role="group">
+    <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Secure/Unsecure
+    </button>
+    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+      <button class="dropdown-item" href="#">Secure</button>
+      <button class="dropdown-item" href="#">Unsecure</button>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+	<div class = "container alert" id="message"></div>
+		<script type="text/javascript" src="scripts/jquery.min.js"></script>
+		<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+		<script src="scripts/bootstrap/js/bootstrap.min.js"></script>
+		</body>
+</html>
