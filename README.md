@@ -3,7 +3,7 @@
  -----
 
 
-To build a smrt home system from scratch, we develop:
+To build a smart home system from scratch, we develop:
 
 
 (1) A web application written in HTML,CSS, Javasript, PHP and python.
